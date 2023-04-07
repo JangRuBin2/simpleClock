@@ -1,5 +1,5 @@
-function elementMaker(element, elementContent, parent) {
-  document.createElement(element);
+function elementMaker(tagName, element, elementContent, parent) {
+  tagName = document.createElement(element);
   tagName.innerHTML = elementContent;
   parent.appendChild(tagName);
 }

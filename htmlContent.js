@@ -10,11 +10,15 @@ export function htmlContent(data) {
   </head>
   
   <body>
-  <h1>${data}</h1>
-  
+  <div id="time>${data}</div>
   </body>
   <script>
- 
+  
+    setInterval(() => {
+      const time = doscument.getElementById("time")
+      time.innerHTML = momentFormat("h:mm:ss A")
+    }, 1000)
+  
   </script>
   
   </html>`;
