@@ -2,7 +2,7 @@ import http from "http";
 import momentFormat from "./clock.js";
 // import elementMaker from "./createElement.js";
 import { htmlContent } from "./htmlContent.js";
-import webSocket from "ws";
+// import webSocket from "ws";
 
 // 불러온 거 확인
 // console.log(momentFormat("hh:mm:ss"));
